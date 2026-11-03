@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff00aa"/>
+      <stop offset="1" stop-color="#00ff9c"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: 'Courier New', Consolas, monospace; font-weight: 700; }
+    .box { fill: #0b0d10; stroke: #00ff9c; stroke-width: 2; animation: pulse 3s infinite; }
+    .b2 { animation-delay: 1s; stroke: #ff00aa; }
+    .b3 { animation-delay: 2s; }
+    .t  { font-size: 28px; fill: #00ff9c; }
+    .t2 { fill: #ff00aa; }
+    .s  { font-size: 14px; fill: #8b949e; font-weight: 400; }
+    .h  { font-size: 13px; fill: #ff00aa; letter-spacing: 3px; }
+    @keyframes pulse { 0%,100% { stroke-opacity: 1 } 50% { stroke-opacity: .3 } }
+  </style>
+
+  <text class="h" x="500" y="24" text-anchor="middle">// RNMDTEAM : INDIE TEAM</text>
+
+  <g filter="url(#glow)">
+    <rect class="box" x="20" y="44" width="300" height="110" rx="8"/>
+    <rect class="box b2" x="350" y="44" width="300" height="110" rx="8"/>
+    <rect class="box b3" x="680" y="44" width="300" height="110" rx="8"/>
+  </g>
+
+  <text class="t" x="170" y="96" text-anchor="middle">GAMEDEV</text>
+  <text class="s" x="170" y="124" text-anchor="middle">games &amp; mods</text>
+
+  <text class="t t2" x="500" y="96" text-anchor="middle">VOICE</text>
+  <text class="s" x="500" y="124" text-anchor="middle">voice acting</text>
+
+  <text class="t" x="830" y="96" text-anchor="middle">MERCH</text>
+  <text class="s" x="830" y="124" text-anchor="middle">own merchandise</text>
+</svg>
