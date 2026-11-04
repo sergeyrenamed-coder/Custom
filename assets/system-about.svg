@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-labelledby="title">
+  <title id="title">About Sergey</title>
+  <style>
+    .k{font:11px monospace;letter-spacing:2px;fill:#777}
+    .h{font:700 42px Arial,Helvetica,sans-serif;letter-spacing:-1.5px;fill:#fff}
+    .p{font:16px Arial,Helvetica,sans-serif;fill:#aaa}
+    .dot{animation:pulse 5s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){.dot{animation:none}}
+  </style>
+  <rect x="1" y="1" width="1278" height="228" rx="3" fill="#080808" stroke="#373737"/>
+  <text class="k" x="32" y="34">01 / IDENTITY</text>
+  <path d="M32 52H1248" stroke="#333"/>
+  <text class="h" x="32" y="112">MAKING DIGITAL THINGS.</text>
+  <text class="p" x="34" y="151">I'm Sergey — an independent developer and founder of RNMDTEAM.</text>
+  <text class="p" x="34" y="181">I build web projects, game-related experiments and digital tools, from concept to implementation.</text>
+  <path d="M1030 80V194" stroke="#363636"/>
+  <circle cx="1100" cy="136" r="42" fill="none" stroke="#555"/>
+  <circle cx="1100" cy="136" r="28" fill="none" stroke="#333"/>
+  <path d="M1084 153V119H1100C1110 119 1117 126 1117 136C1117 146 1110 153 1100 153" fill="none" stroke="#eee" stroke-width="5"/>
+  <circle class="dot" cx="1158" cy="95" r="4" fill="#fff"/>
+  <text class="k" x="1248" y="207" text-anchor="end">IDEA → DESIGN → CODE</text>
+</svg>

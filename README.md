@@ -1,55 +1,39 @@
-# CUSTOM / MONOCHROME ASSETS
+# RNMD / GRAPHIC SYSTEM
 
-A small visual system for the [Sergey_Renamed profile](https://github.com/sergeyrenamed-coder).
+The current black-and-white visual identity used by [Sergey's GitHub profile](https://github.com/sergeyrenamed-coder).
 
-**Black. White. Space. Typography.**
+**Everything is drawn as SVG.** The profile README is built from image assets only — no markdown headings, badges or plain-text sections.
 
-All graphics are custom SVGs designed for GitHub Markdown. The new assets use unique filenames so GitHub does not keep displaying cached versions of the previous artwork.
+## 01 / PROFILE
 
-## 01 / HERO
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-hero.svg?v=20261104-v3" width="100%" alt="Profile hero" />
 
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-banner.svg?v=20261104" width="100%" alt="Monochrome profile banner" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-about.svg?v=20261104-v3" width="100%" alt="About panel" />
 
-## 02 / PROFILE GRAPHICS
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-focus.svg?v=20261104-v3" width="100%" alt="Focus panel" />
+
+## 02 / REPOSITORY CARDS
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-**About**
-
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-about.svg?v=20261104" width="100%" alt="About graphic" />
-
+<td width="50%">
+<a href="https://github.com/sergeyrenamed-coder/sergeyrenamed-coder">
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-profile-repo.svg?v=20261104-v3" width="100%" alt="Profile repository card" />
+</a>
 </td>
-<td width="50%" valign="top">
-
-**Focus**
-
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-focus.svg?v=20261104" width="100%" alt="Focus graphic" />
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**Toolkit**
-
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-stack.svg?v=20261104" width="100%" alt="Toolkit graphic" />
-
-</td>
-<td width="50%" valign="top">
-
-**Footer**
-
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-footer.svg?v=20261104" width="100%" alt="Footer graphic" />
-
+<td width="50%">
+<a href="https://github.com/sergeyrenamed-coder/Custom">
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-custom-repo.svg?v=20261104-v3" width="100%" alt="Custom repository card" />
+</a>
 </td>
 </tr>
 </table>
 
-## 03 / DETAIL
+## 03 / TOOLKIT & FOOTER
 
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-divider.svg?v=20261104" width="100%" alt="Section divider" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-toolkit.svg?v=20261104-v3" width="100%" alt="Technology toolkit" />
+
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-footer.svg?v=20261104-v3" width="100%" alt="RNMDTEAM footer" />
 
 ## DESIGN TOKENS
 
@@ -59,15 +43,16 @@ All graphics are custom SVGs designed for GitHub Markdown. The new assets use un
 | Primary | `#FFFFFF` |
 | Secondary | `#AAAAAA` |
 | Muted | `#666666` |
-| Border | `#353535` |
+| Border | `#373737` |
 
 ## FILES
 
-- `assets/mono-banner.svg`
-- `assets/mono-about.svg`
-- `assets/mono-focus.svg`
-- `assets/mono-stack.svg`
-- `assets/mono-divider.svg`
-- `assets/mono-footer.svg`
+- `assets/system-hero.svg`
+- `assets/system-about.svg`
+- `assets/system-focus.svg`
+- `assets/system-profile-repo.svg`
+- `assets/system-custom-repo.svg`
+- `assets/system-toolkit.svg`
+- `assets/system-footer.svg`
 
-All SVGs are self-contained and can be embedded directly in Markdown.
+SVG animation is limited to slow opacity pulses and one subtle moving line. No scripts, external fonts or JavaScript are required.

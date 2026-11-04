@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="222" viewBox="0 0 1280 222" role="img" aria-labelledby="title">
+  <title id="title">Areas of focus</title>
+  <style>
+    .k{font:11px monospace;letter-spacing:2px;fill:#777}
+    .n{font:11px monospace;fill:#777}
+    .h{font:700 26px Arial,Helvetica,sans-serif;fill:#fff}
+    .p{font:14px Arial,Helvetica,sans-serif;fill:#888}
+    .mark{animation:pulse 6s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.25}50%{opacity:.8}}
+    @media (prefers-reduced-motion:reduce){.mark{animation:none}}
+  </style>
+  <rect x="1" y="1" width="1278" height="220" rx="3" fill="#080808" stroke="#373737"/>
+  <text class="k" x="30" y="32">02 / AREAS OF FOCUS</text>
+  <path d="M30 49H1250M435 65V192M850 65V192" stroke="#333"/>
+  <text class="n" x="30" y="82">01</text>
+  <text class="h" x="30" y="122">WEB</text>
+  <text class="p" x="30" y="153">Interfaces, websites &amp; systems</text>
+  <circle class="mark" cx="396" cy="78" r="4" fill="#fff"/>
+  <text class="n" x="465" y="82">02</text>
+  <text class="h" x="465" y="122">GAME DEVELOPMENT</text>
+  <text class="p" x="465" y="153">Games, mods &amp; interactive ideas</text>
+  <circle class="mark" cx="810" cy="78" r="4" fill="#fff" style="animation-delay:1s"/>
+  <text class="n" x="880" y="82">03</text>
+  <text class="h" x="880" y="122">CREATIVE</text>
+  <text class="p" x="880" y="153">RNMDTEAM &amp; digital experiments</text>
+  <circle class="mark" cx="1220" cy="78" r="4" fill="#fff" style="animation-delay:2s"/>
+  <text class="k" x="1250" y="198" text-anchor="end">BUILD WHAT YOU CAN IMAGINE.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="208" viewBox="0 0 1280 208" role="img" aria-labelledby="title">
+  <title id="title">Technology toolkit</title>
+  <style>
+    .k{font:11px monospace;letter-spacing:2px;fill:#777}
+    .l{font:11px monospace;letter-spacing:1px;fill:#777}
+    .v{font:17px Arial,Helvetica,sans-serif;fill:#eee}
+  </style>
+  <rect x="1" y="1" width="1278" height="206" rx="3" fill="#080808" stroke="#373737"/>
+  <text class="k" x="30" y="32">03 / TOOLKIT</text>
+  <path d="M30 49H1250M30 119H1250" stroke="#333"/>
+  <text class="l" x="30" y="78">WEB</text>
+  <text class="v" x="210" y="79">HTML  /  CSS  /  JavaScript</text>
+  <text class="l" x="30" y="105">BACKEND</text>
+  <text class="v" x="210" y="106">Node.js  /  Fastify  /  PostgreSQL  /  Python</text>
+  <text class="l" x="30" y="151">ENVIRONMENT</text>
+  <text class="v" x="210" y="152">Git  /  Linux  /  Roblox Studio</text>
+  <path d="M30 174H1250" stroke="#333"/>
+  <text class="l" x="30" y="192">TOOLS ARE PART OF THE PROCESS — NOT THE FINISH LINE.</text>
+</svg>
