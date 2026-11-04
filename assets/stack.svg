@@ -1,25 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190">
-  <style>
-    text { font-family: 'Courier New', Consolas, monospace; font-weight: 700; font-size: 18px; fill: #00ff9c; }
-    .r  { fill: #0b0d10; stroke: #00ff9c; stroke-width: 1.5; animation: edge 3s infinite; }
-    .pk .r { stroke: #ff00aa; }
-    .pk text { fill: #ff00aa; }
-    .p  { animation: float 4s ease-in-out infinite; }
-    @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
-    @keyframes edge  { 0%,100% { stroke-opacity: 1 } 50% { stroke-opacity: .35 } }
-  </style>
-
-  <!-- row 1 -->
-  <g transform="translate(60,30)"><g class="p" style="animation-delay:0s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">HTML</text></g></g>
-  <g transform="translate(240,30)" class="pk"><g class="p" style="animation-delay:.4s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">CSS</text></g></g>
-  <g transform="translate(420,30)"><g class="p" style="animation-delay:.8s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">JavaScript</text></g></g>
-  <g transform="translate(600,30)" class="pk"><g class="p" style="animation-delay:1.2s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">Node.js</text></g></g>
-  <g transform="translate(780,30)"><g class="p" style="animation-delay:1.6s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">Fastify</text></g></g>
-
-  <!-- row 2 -->
-  <g transform="translate(60,110)" class="pk"><g class="p" style="animation-delay:.2s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">PostgreSQL</text></g></g>
-  <g transform="translate(240,110)"><g class="p" style="animation-delay:.6s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">Python</text></g></g>
-  <g transform="translate(420,110)" class="pk"><g class="p" style="animation-delay:1s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">Git</text></g></g>
-  <g transform="translate(600,110)"><g class="p" style="animation-delay:1.4s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">Linux</text></g></g>
-  <g transform="translate(780,110)" class="pk"><g class="p" style="animation-delay:1.8s"><rect class="r" width="160" height="44" rx="6"/><text x="80" y="28" text-anchor="middle">Roblox</text></g></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title">
+  <title id="title">Technology stack</title>
+  <rect x="1" y="1" width="998" height="218" rx="7" fill="#080808" stroke="#303030"/>
+  <text x="26" y="32" fill="#777" font-family="Inter,Arial,sans-serif" font-size="11" letter-spacing="3">TOOLKIT / SELECTED TECHNOLOGIES</text>
+  <path d="M26 48H974" stroke="#303030"/>
+  <text x="28" y="82" fill="#777" font-family="monospace" font-size="11" letter-spacing="1">WEB</text>
+  <text x="28" y="108" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="18">HTML   /   CSS   /   JavaScript</text>
+  <path d="M26 126H974" stroke="#282828"/>
+  <text x="28" y="153" fill="#777" font-family="monospace" font-size="11" letter-spacing="1">BACKEND &amp; DATA</text>
+  <text x="28" y="179" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="18">Node.js   /   Fastify   /   PostgreSQL   /   Python</text>
+  <path d="M26 196H974" stroke="#282828"/>
+  <text x="970" y="211" text-anchor="end" fill="#666" font-family="monospace" font-size="10">GIT  /  LINUX  /  ROBLOX</text>
 </svg>

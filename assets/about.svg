@@ -1,61 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff00aa"/>
-      <stop offset="1" stop-color="#00ff9c"/>
-    </linearGradient>
-    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <style>
-    text { font-family: 'Courier New', Consolas, monospace; font-size: 20px; }
-    .p  { fill: #ff00aa; }
-    .g  { fill: #00ff9c; }
-    .w  { fill: #c9d1d9; }
-    .d  { fill: #8b949e; }
-    .l  { opacity: 0; animation: show 14s infinite; }
-    .l1 { animation-delay: 0.3s }
-    .l2 { animation-delay: 1.2s }
-    .l3 { animation-delay: 2.0s }
-    .l4 { animation-delay: 3.0s }
-    .l5 { animation-delay: 3.8s }
-    .l6 { animation-delay: 4.8s }
-    .l7 { animation-delay: 5.6s }
-    .cur { fill: #00ff9c; animation: blink 1s infinite steps(1); }
-    .dotpulse { animation: pulse 2s infinite; }
-    @keyframes show {
-      0% { opacity: 0 }
-      2%,86% { opacity: 1 }
-      94%,100% { opacity: 0 }
-    }
-    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
-    @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .35 } }
-  </style>
-
-  <!-- window -->
-  <rect x="2" y="2" width="996" height="326" rx="10" fill="#0b0d10" stroke="url(#g)" stroke-width="2" filter="url(#glow)"/>
-  <rect x="2" y="2" width="996" height="38" rx="10" fill="#14181d"/>
-  <rect x="2" y="30" width="996" height="10" fill="#14181d"/>
-  <circle cx="26" cy="21" r="6" fill="#ff5f56" class="dotpulse"/>
-  <circle cx="48" cy="21" r="6" fill="#ffbd2e"/>
-  <circle cx="70" cy="21" r="6" fill="#27c93f"/>
-  <text x="500" y="27" text-anchor="middle" style="font-size:14px" class="d">sergey@rnmd: ~</text>
-
-  <!-- lines -->
-  <g class="l l1"><text x="30" y="80"><tspan class="p">┌──[</tspan><tspan class="g"> sergey@rnmd </tspan><tspan class="p">]─[</tspan><tspan class="w">~</tspan><tspan class="p">]</tspan></text></g>
-  <g class="l l2"><text x="30" y="106"><tspan class="p">└─$ </tspan><tspan class="w">whoami</tspan></text></g>
-  <g class="l l3"><text x="30" y="136" class="g">   Sergey: web developer, founder of RNMDTEAM</text></g>
-
-  <g class="l l4"><text x="30" y="176"><tspan class="p">└─$ </tspan><tspan class="w">cat skills.txt</tspan></text></g>
-  <g class="l l5"><text x="30" y="206" class="g">   frontend · backend · games · everything by hand</text></g>
-
-  <g class="l l6"><text x="30" y="246"><tspan class="p">└─$ </tspan><tspan class="w">uptime</tspan></text></g>
-  <g class="l l7">
-    <text x="30" y="276" class="g">   online. building stuff.</text>
-    <rect class="cur" x="300" y="259" width="12" height="22"/>
-  </g>
-
-  <text x="970" y="310" text-anchor="end" style="font-size:12px" class="d">RNMDTEAM // node.js · games · tools</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title">
+  <title id="title">About — Sergey</title>
+  <rect x="1" y="1" width="998" height="218" rx="7" fill="#080808" stroke="#303030"/>
+  <text x="30" y="38" fill="#777" font-family="Inter,Arial,sans-serif" font-size="12" letter-spacing="3">ABOUT / 001</text>
+  <path d="M30 56H970" stroke="#303030"/>
+  <text x="30" y="112" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="-1">I BUILD THINGS.</text>
+  <text x="32" y="151" fill="#aaa" font-family="Inter,Arial,sans-serif" font-size="17">From web interfaces to game-related projects and digital experiments.</text>
+  <text x="32" y="190" fill="#666" font-family="monospace" font-size="11" letter-spacing="1">IDEA  /  DESIGN  /  IMPLEMENTATION</text>
+  <circle cx="950" cy="188" r="5" fill="#fff"/>
 </svg>

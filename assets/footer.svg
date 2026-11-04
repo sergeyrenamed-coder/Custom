@@ -1,40 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ff00aa"/>
-      <stop offset="1" stop-color="#00ff9c"/>
-    </linearGradient>
-    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0b0d10" stop-opacity="0"/>
-      <stop offset="1" stop-color="#0b0d10"/>
-    </linearGradient>
-    <filter id="glow" x="-10%" y="-50%" width="120%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <style>
-    text { font-family: 'Courier New', Consolas, monospace; font-weight: 700; }
-    .t   { font-size: 20px; fill: #00ff9c; letter-spacing: 2px; }
-    .cur { fill: #00ff9c; animation: blink 1s infinite steps(1); }
-    .w1  { animation: drift 6s linear infinite; }
-    .w2  { animation: drift 9s linear infinite reverse; }
-    @keyframes blink { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
-    @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-200px) } }
-  </style>
-
-  <rect width="1000" height="140" fill="#0b0d10"/>
-
-  <!-- waves, 2 periods of 200px wider than canvas so drift loops -->
-  <g filter="url(#glow)" fill="none" stroke-width="2.5">
-    <path class="w1" stroke="#ff00aa" opacity="0.8"
-      d="M0 70 Q50 40 100 70 T200 70 T300 70 T400 70 T500 70 T600 70 T700 70 T800 70 T900 70 T1000 70 T1100 70 T1200 70"/>
-    <path class="w2" stroke="#00ff9c" opacity="0.8"
-      d="M-200 80 Q-150 50 -100 80 T0 80 T100 80 T200 80 T300 80 T400 80 T500 80 T600 80 T700 80 T800 80 T900 80 T1000 80"/>
-  </g>
-
-  <text class="t" x="500" y="116" text-anchor="middle">&gt; RNMDTEAM // building in the dark</text>
-  <rect class="cur" x="750" y="100" width="11" height="20"/>
-
-  <rect x="0" y="134" width="1000" height="6" fill="url(#g)" filter="url(#glow)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="112" viewBox="0 0 1000 112" role="img" aria-labelledby="title">
+  <title id="title">RNMDTEAM</title>
+  <rect x="1" y="1" width="998" height="110" rx="7" fill="#080808" stroke="#303030"/>
+  <text x="28" y="43" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="2">RNMDTEAM</text>
+  <text x="28" y="70" fill="#777" font-family="Inter,Arial,sans-serif" font-size="11" letter-spacing="2">INDEPENDENT CREATIVE WORK</text>
+  <path d="M690 24V88" stroke="#303030"/>
+  <text x="720" y="47" fill="#aaa" font-family="monospace" font-size="11" letter-spacing="1">DESIGN / BUILD / ITERATE</text>
+  <text x="720" y="70" fill="#555" font-family="monospace" font-size="10">END OF PROFILE</text>
+  <circle cx="963" cy="56" r="5" fill="#fff"/>
 </svg>
