@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
   <title id="title">SERGEY — Web Developer and RNMDTEAM founder</title>
-  <desc id="desc">Monochrome editorial hero with oversized typography, a geometric mark and subtle motion.</desc>
+  <desc id="desc">Monochrome editorial hero with a clean typographic R monogram and subtle motion.</desc>
   <defs>
     <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#777" opacity=".34"/></pattern>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#aaa"/></linearGradient>
@@ -27,10 +27,10 @@
   <text class="small" x="50" y="319">DESIGN  —  BUILD  —  ITERATE</text>
   <text class="small" x="1238" y="319" text-anchor="end">001 / 007</text>
   <rect x="920" y="55" width="320" height="239" fill="url(#dots)" opacity=".62"/>
-  <g clip-path="url(#markClip)" transform="translate(0 0)">
+  <g clip-path="url(#markClip)">
     <circle cx="1085" cy="165" r="100" fill="none" stroke="#454545"/>
     <circle cx="1085" cy="165" r="78" fill="none" stroke="#303030"/>
-    <path d="M1030 240V92H1097C1134 92 1154 113 1154 145C1154 178 1132 198 1097 198H1030M1095 198L1166 254" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="square" stroke-linejoin="miter"/>
+    <text x="1085" y="232" text-anchor="middle" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="188" font-weight="600" letter-spacing="-12">R</text>
     <path d="M980 66V264M1190 66V264" stroke="#555" stroke-dasharray="2 8"/>
   </g>
   <circle class="pulse" cx="1238" cy="73" r="4" fill="#fff"/>

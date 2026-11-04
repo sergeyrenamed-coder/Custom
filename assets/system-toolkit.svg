@@ -1,19 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="208" viewBox="0 0 1280 208" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="318" viewBox="0 0 1280 318" role="img" aria-labelledby="title desc">
   <title id="title">Technology toolkit</title>
+  <desc id="desc">Monochrome icons for HTML5, CSS3, JavaScript, Python, Node.js, Fastify, PostgreSQL, Git, Linux and Roblox Studio.</desc>
   <style>
     .k{font:11px monospace;letter-spacing:2px;fill:#777}
-    .l{font:11px monospace;letter-spacing:1px;fill:#777}
-    .v{font:17px Arial,Helvetica,sans-serif;fill:#eee}
+    .label{font:12px Arial,Helvetica,sans-serif;fill:#ddd}
+    .icon{fill:none;stroke:#eee;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .solid{fill:#eee;stroke:none}
   </style>
-  <rect x="1" y="1" width="1278" height="206" rx="3" fill="#080808" stroke="#373737"/>
+  <rect x="1" y="1" width="1278" height="316" rx="3" fill="#080808" stroke="#373737"/>
   <text class="k" x="30" y="32">03 / TOOLKIT</text>
-  <path d="M30 49H1250M30 119H1250" stroke="#333"/>
-  <text class="l" x="30" y="78">WEB</text>
-  <text class="v" x="210" y="79">HTML  /  CSS  /  JavaScript</text>
-  <text class="l" x="30" y="105">BACKEND</text>
-  <text class="v" x="210" y="106">Node.js  /  Fastify  /  PostgreSQL  /  Python</text>
-  <text class="l" x="30" y="151">ENVIRONMENT</text>
-  <text class="v" x="210" y="152">Git  /  Linux  /  Roblox Studio</text>
-  <path d="M30 174H1250" stroke="#333"/>
-  <text class="l" x="30" y="192">TOOLS ARE PART OF THE PROCESS — NOT THE FINISH LINE.</text>
+  <text class="k" x="1250" y="32" text-anchor="end">LANGUAGES / FRAMEWORKS / TOOLS</text>
+  <path d="M30 49H1250M30 178H1250" stroke="#333"/>
+  <g transform="translate(140 102)">
+    <path class="icon" d="M-23 -31H23L18 25L0 34L-18 25Z"/>
+    <path class="icon" d="M-12 -17H14L12 -7H-10L-8 3H11L9 19L0 24L-9 19"/>
+    <text class="label" x="0" y="62" text-anchor="middle">HTML5</text>
+  </g>
+  <g transform="translate(390 102)">
+    <path class="icon" d="M-23 -31H23L18 25L0 34L-18 25Z"/>
+    <path class="icon" d="M-12 -17H14L13 -7H-8L-7 1H12L10 18L0 24L-10 18"/>
+    <text class="label" x="0" y="62" text-anchor="middle">CSS3</text>
+  </g>
+  <g transform="translate(640 102)">
+    <rect x="-27" y="-30" width="54" height="60" rx="2" fill="#eee"/>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" fill="#080808">JS</text>
+    <text class="label" x="0" y="62" text-anchor="middle">JavaScript</text>
+  </g>
+  <g transform="translate(890 102)">
+    <path class="icon" d="M-3 -30C-22 -30 -24 -14 -17 -8C-10 -2 -3 -8 -2 -15C-1 -22 -4 -27 -3 -30ZM3 30C22 30 24 14 17 8C10 2 3 8 2 15C1 22 4 27 3 30Z"/>
+    <path class="icon" d="M-2 -18H13C27 -18 25 0 12 0H-9C-24 0 -24 18 -9 18H3"/>
+    <circle cx="9" cy="-10" r="2" class="solid"/>
+    <circle cx="-9" cy="10" r="2" class="solid"/>
+    <text class="label" x="0" y="62" text-anchor="middle">Python</text>
+  </g>
+  <g transform="translate(1140 102)">
+    <path class="icon" d="M0 -33L29 -16V17L0 34L-29 17V-16Z"/>
+    <text x="0" y="7" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#eee">JS</text>
+    <text class="label" x="0" y="62" text-anchor="middle">Node.js</text>
+  </g>
+  <g transform="translate(140 230)">
+    <path class="icon" d="M0 -32L29 -15V17L0 34L-29 17V-15Z"/>
+    <path class="icon" d="M-10 -10H10M-10 0H10M-10 10H6"/>
+    <text class="label" x="0" y="62" text-anchor="middle">Fastify</text>
+  </g>
+  <g transform="translate(390 230)">
+    <ellipse class="icon" cx="0" cy="-20" rx="26" ry="10"/>
+    <path class="icon" d="M-26 -20V20C-26 33 26 33 26 20V-20M-26 0C-26 13 26 13 26 0"/>
+    <path class="icon" d="M-26 20C-26 33 26 33 26 20"/>
+    <text class="label" x="0" y="62" text-anchor="middle">PostgreSQL</text>
+  </g>
+  <g transform="translate(640 230)">
+    <circle class="solid" cx="-20" cy="-20" r="7"/>
+    <circle class="solid" cx="20" cy="-20" r="7"/>
+    <circle class="solid" cx="0" cy="22" r="7"/>
+    <path class="icon" d="M-20 -13V0L0 15L20 0V-13M0 15V-2"/>
+    <text class="label" x="0" y="62" text-anchor="middle">Git</text>
+  </g>
+  <g transform="translate(890 230)">
+    <path class="solid" d="M-24 12C-26 -5 -17 -25 0 -28C17 -25 26 -5 24 12C22 28 14 34 0 34C-14 34 -22 28 -24 12Z"/>
+    <path d="M-13 3C-9 -8 9 -8 13 3V19C9 29 -9 29 -13 19Z" fill="#080808"/>
+    <ellipse cx="-8" cy="-2" rx="2.5" ry="4" fill="#fff"/>
+    <ellipse cx="8" cy="-2" rx="2.5" ry="4" fill="#fff"/>
+    <path d="M-5 12L0 17L5 12Z" fill="#fff"/>
+    <text class="label" x="0" y="62" text-anchor="middle">Linux</text>
+  </g>
+  <g transform="translate(1140 230)">
+    <path class="icon" d="M0 -32L29 0L0 32L-29 0Z"/>
+    <path d="M0 -9L9 0L0 9L-9 0Z" fill="#080808" stroke="#eee" stroke-width="2"/>
+    <text class="label" x="0" y="62" text-anchor="middle">Roblox Studio</text>
+  </g>
+  <text class="k" x="30" y="303">BUILD WITH THE TOOLS YOU KNOW.</text>
+  <text class="k" x="1250" y="303" text-anchor="end">10 / SELECTED</text>
 </svg>

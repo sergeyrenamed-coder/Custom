@@ -6,11 +6,11 @@ The current black-and-white visual identity used by [Sergey's GitHub profile](ht
 
 ## 01 / PROFILE
 
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-hero.svg?v=20261104-v3" width="100%" alt="Profile hero" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-hero.svg?v=20261104-v4" width="100%" alt="Profile hero" />
 
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-about.svg?v=20261104-v3" width="100%" alt="About panel" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-about.svg?v=20261104-v4" width="100%" alt="About panel" />
 
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-focus.svg?v=20261104-v3" width="100%" alt="Focus panel" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-focus.svg?v=20261104-v4" width="100%" alt="Focus panel" />
 
 ## 02 / REPOSITORY CARDS
 
@@ -18,12 +18,12 @@ The current black-and-white visual identity used by [Sergey's GitHub profile](ht
 <tr>
 <td width="50%">
 <a href="https://github.com/sergeyrenamed-coder/sergeyrenamed-coder">
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-profile-repo.svg?v=20261104-v3" width="100%" alt="Profile repository card" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-profile-repo.svg?v=20261104-v4" width="100%" alt="Profile repository card" />
 </a>
 </td>
 <td width="50%">
 <a href="https://github.com/sergeyrenamed-coder/Custom">
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-custom-repo.svg?v=20261104-v3" width="100%" alt="Custom repository card" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-custom-repo.svg?v=20261104-v4" width="100%" alt="Custom repository card" />
 </a>
 </td>
 </tr>
@@ -31,9 +31,9 @@ The current black-and-white visual identity used by [Sergey's GitHub profile](ht
 
 ## 03 / TOOLKIT & FOOTER
 
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-toolkit.svg?v=20261104-v3" width="100%" alt="Technology toolkit" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-toolkit.svg?v=20261104-v4" width="100%" alt="Technology toolkit" />
 
-<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-footer.svg?v=20261104-v3" width="100%" alt="RNMDTEAM footer" />
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/system-footer.svg?v=20261104-v4" width="100%" alt="RNMDTEAM footer" />
 
 ## DESIGN TOKENS
 
