@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="title">
+  <title id="title">Current focus areas</title>
+  <rect x="1" y="1" width="998" height="178" rx="4" fill="#080808" stroke="#353535"/>
+  <text x="26" y="29" fill="#777" font-family="monospace" font-size="10" letter-spacing="2">02 / CURRENT FOCUS</text>
+  <path d="M26 43H974M342 58V155M658 58V155" stroke="#333"/>
+  <text x="28" y="80" fill="#777" font-family="monospace" font-size="10">01</text>
+  <text x="28" y="113" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700">WEB</text>
+  <text x="28" y="137" fill="#888" font-family="Arial,Helvetica,sans-serif" font-size="12">Interfaces &amp; systems</text>
+  <text x="368" y="80" fill="#777" font-family="monospace" font-size="10">02</text>
+  <text x="368" y="113" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700">GAMES</text>
+  <text x="368" y="137" fill="#888" font-family="Arial,Helvetica,sans-serif" font-size="12">Games, mods &amp; tools</text>
+  <text x="684" y="80" fill="#777" font-family="monospace" font-size="10">03</text>
+  <text x="684" y="113" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700">CREATIVE</text>
+  <text x="684" y="137" fill="#888" font-family="Arial,Helvetica,sans-serif" font-size="12">RNMDTEAM projects</text>
+</svg>

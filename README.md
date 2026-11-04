@@ -1,66 +1,73 @@
-# Custom
+# CUSTOM / MONOCHROME ASSETS
 
-**A small collection of original monochrome SVG assets for the [Sergey_Renamed GitHub profile](https://github.com/sergeyrenamed-coder).**
+A small visual system for the [Sergey_Renamed profile](https://github.com/sergeyrenamed-coder).
 
-The visual system is intentionally restrained: near-black backgrounds, white typography, muted gray details, thin borders and a precise grid.
+**Black. White. Space. Typography.**
 
-## Assets
+All graphics are custom SVGs designed for GitHub Markdown. The new assets use unique filenames so GitHub does not keep displaying cached versions of the previous artwork.
+
+## 01 / HERO
+
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-banner.svg?v=20261104" width="100%" alt="Monochrome profile banner" />
+
+## 02 / PROFILE GRAPHICS
 
 <table>
-  <tr>
-    <td width="50%">
-      <strong>Banner</strong><br />
-      <sub>Main profile header</sub><br /><br />
-      <img src="assets/banner.svg" width="100%" alt="Monochrome profile banner" />
-    </td>
-    <td width="50%">
-      <strong>About</strong><br />
-      <sub>Introductory statement</sub><br /><br />
-      <img src="assets/about.svg" width="100%" alt="About graphic" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Team</strong><br />
-      <sub>RNMDTEAM focus areas</sub><br /><br />
-      <img src="assets/team.svg" width="100%" alt="Team focus areas" />
-    </td>
-    <td>
-      <strong>Stack</strong><br />
-      <sub>Selected technologies</sub><br /><br />
-      <img src="assets/stack.svg" width="100%" alt="Technology stack" />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Divider</strong><br />
-      <sub>Section separator</sub><br /><br />
-      <img src="assets/divider.svg" width="100%" alt="Minimal section divider" />
-    </td>
-    <td>
-      <strong>Footer</strong><br />
-      <sub>Profile closing graphic</sub><br /><br />
-      <img src="assets/footer.svg" width="100%" alt="RNMDTEAM footer graphic" />
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+**About**
+
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-about.svg?v=20261104" width="100%" alt="About graphic" />
+
+</td>
+<td width="50%" valign="top">
+
+**Focus**
+
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-focus.svg?v=20261104" width="100%" alt="Focus graphic" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Toolkit**
+
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-stack.svg?v=20261104" width="100%" alt="Toolkit graphic" />
+
+</td>
+<td width="50%" valign="top">
+
+**Footer**
+
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-footer.svg?v=20261104" width="100%" alt="Footer graphic" />
+
+</td>
+</tr>
 </table>
 
-## Design tokens
+## 03 / DETAIL
 
-| Token | Value | Use |
-|:--|:--|:--|
-| Background | `#080808` | Main surfaces |
-| Primary | `#FFFFFF` | Headlines and key details |
-| Secondary | `#AAAAAA` | Supporting text |
-| Muted | `#666666` | Metadata |
-| Border | `#303030` | Dividers and outlines |
+<img src="https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/mono-divider.svg?v=20261104" width="100%" alt="Section divider" />
 
-## Usage
+## DESIGN TOKENS
 
-Reference an asset directly from this repository:
+| Token | Value |
+|:--|:--|
+| Background | `#080808` |
+| Primary | `#FFFFFF` |
+| Secondary | `#AAAAAA` |
+| Muted | `#666666` |
+| Border | `#353535` |
 
-```md
-![Profile banner](https://raw.githubusercontent.com/sergeyrenamed-coder/Custom/main/assets/banner.svg)
-```
+## FILES
 
-All graphics are standalone SVG files and can be reused in Markdown or other web projects.
+- `assets/mono-banner.svg`
+- `assets/mono-about.svg`
+- `assets/mono-focus.svg`
+- `assets/mono-stack.svg`
+- `assets/mono-divider.svg`
+- `assets/mono-footer.svg`
+
+All SVGs are self-contained and can be embedded directly in Markdown.

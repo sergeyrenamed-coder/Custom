@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">SERGEY — Developer and founder of RNMDTEAM</title>
+  <desc id="desc">Black and white editorial profile banner with oversized typography and geometric monogram.</desc>
+  <defs>
+    <pattern id="dotgrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#777" opacity=".42"/>
+    </pattern>
+    <linearGradient id="whitefade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#bdbdbd"/>
+    </linearGradient>
+    <clipPath id="rightclip"><rect x="900" y="0" width="380" height="320"/></clipPath>
+  </defs>
+  <rect width="1280" height="320" fill="#050505"/>
+  <rect x="1" y="1" width="1278" height="318" fill="none" stroke="#353535"/>
+  <path d="M42 58H1238" stroke="#333"/>
+  <path d="M900 58V278" stroke="#333"/>
+  <text x="44" y="37" fill="#aaa" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="4">RNMD / PERSONAL PROFILE</text>
+  <text x="1236" y="37" text-anchor="end" fill="#888" font-family="monospace" font-size="11" letter-spacing="2">INDEPENDENT DEVELOPER</text>
+  <text x="38" y="188" fill="url(#whitefade)" font-family="Arial,Helvetica,sans-serif" font-size="144" font-weight="800" letter-spacing="-9">SERGEY</text>
+  <text x="48" y="232" fill="#eee" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" letter-spacing="3">WEB DEVELOPER</text>
+  <text x="48" y="260" fill="#777" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="3">FOUNDER OF RNMDTEAM</text>
+  <g clip-path="url(#rightclip)">
+    <rect x="900" y="58" width="380" height="220" fill="url(#dotgrid)"/>
+    <circle cx="1090" cy="165" r="94" fill="none" stroke="#555" stroke-width="1"/>
+    <circle cx="1090" cy="165" r="72" fill="none" stroke="#333" stroke-width="1"/>
+    <path d="M1029 226V103H1089C1127 103 1148 123 1148 154C1148 185 1127 204 1089 204H1029M1089 204L1154 252" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M1180 85V245M1200 85V245" stroke="#444"/>
+    <text x="1238" y="270" text-anchor="end" fill="#777" font-family="monospace" font-size="10" letter-spacing="2">001 / RNMD</text>
+  </g>
+  <path d="M42 288H1238" stroke="#333"/>
+  <text x="44" y="306" fill="#666" font-family="monospace" font-size="9" letter-spacing="2">DESIGN  /  BUILD  /  ITERATE</text>
+  <text x="1236" y="306" text-anchor="end" fill="#666" font-family="monospace" font-size="9" letter-spacing="2">2026 — PRESENT</text>
+</svg>

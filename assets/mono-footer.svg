@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="100" viewBox="0 0 1000 100" role="img" aria-labelledby="title">
+  <title id="title">RNMDTEAM footer</title>
+  <rect x="1" y="1" width="998" height="98" rx="4" fill="#080808" stroke="#353535"/>
+  <text x="26" y="43" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" letter-spacing="2">RNMDTEAM</text>
+  <text x="26" y="68" fill="#777" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="2">INDEPENDENT CREATIVE WORK</text>
+  <path d="M690 22V78" stroke="#333"/>
+  <text x="720" y="43" fill="#aaa" font-family="monospace" font-size="10" letter-spacing="1">DESIGN / BUILD / ITERATE</text>
+  <text x="720" y="63" fill="#555" font-family="monospace" font-size="9" letter-spacing="1">END OF PROFILE</text>
+  <circle cx="963" cy="48" r="5" fill="#fff"/>
+</svg>
